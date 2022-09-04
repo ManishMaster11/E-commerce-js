@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input[type=text]{
+    padding: 0.5rem;
+    width: 15rem;
+    outline: none;
+    border: none;
+    border-bottom: 0.1rem solid red;
+    font-size: medium;
+}
+
+.search-btn{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}
+
+.category-btn{
+    margin-top: 1rem;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: gold;
+    color: black;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}
+.container{
+width: 1400px;
+margin: auto;
+/* background-color: lightsalmon; */
+padding: 5px;
+display: flex;
+justify-content: space-between;
+flex-flow: wrap;
+}
+.item{
+    width: 450px;
+    height: 580px;
+    display: flex;
+    flex-flow: column;
+    background-color: antiquewhite;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* flex-flow: wrap; */
+    /* box-shadow: 10px 5px 5px red;  */
+}
+
+/* .item :hover{
+    box-shadow: 10px 5px 5px red; 
+} */
+
+
+.title{
+padding: 1rem;
+width: 440px;
+/* background-color: chocolate; */
+text-align: center;
+margin: 5px 0px 10px 0px;
+font-weight: 800;
+}
+
+.image img{
+    width: 300px;
+    height: 250px;
+    background-color: none;
+}
+.discription{
+    padding: 1rem;
+    width: 440px;
+    height: 140px;
+    /* background-color: chocolate; */
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+    overflow: hidden;
+}
+.category, .price{
+    padding: 0.7rem;
+    width: 440px;
+    /* background-color: chocolate; */
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
